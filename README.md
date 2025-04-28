@@ -38,3 +38,16 @@ The bricklayer robot indicates status and error states with an LED on the board.
 4. The next action is to turn around 180 degrees in place with a tank turn.
 5. The robot linefollows again in the opposite direction along the black line. At the end of the line all IR sensors report white and
 6. the robot poses for the brick. This involves turning around 180 degrees to face the start of the line, then returning to the beginning of the program.
+
+# Source
+Because the software was written for a course assignment, the source code is not available to prevent cheating. If you are not a student of CPET 253, you can email me smm9509@rit.edu and I will likely share my source code. The source code contains modified copies of BSD code from the textbook for the course, this is the attribution written by the author: 
+```c
+/* This example accompanies the book
+   "Embedded Systems: Introduction to Robotics,
+   Jonathan W. Valvano, ISBN: 9781074544300, copyright (c) 2019
+ For more information about my classes, my research, and my books, see
+ http://users.ece.utexas.edu/~valvano/
+
+Simplified BSD License (FreeBSD License)
+Copyright (c) 2019, Jonathan Valvano, All rights reserved. */```
+The source code from this project also contains unlicensed code from the templates provided by the professors for my course, which complicates licensing and redistribution.
